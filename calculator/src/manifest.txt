@@ -1,1 +1,1 @@
-Main-Class: com.example.Calculator
+Main-Class: calculator.src.Calculator.jar
