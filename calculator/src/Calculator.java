@@ -32,6 +32,36 @@ public class Calculator implements ActionListener {
     button1.addActionListener(this);
     frame.add(button1);
 
+    button2 = new JButton("2");
+    button2.setBounds(10, 70, 50, 50);
+    button2.addActionListener(this);
+    frame.add(button2);
+
+    button3 = new JButton("3");
+    button3.setBounds(10, 70, 50, 50);
+    button3.addActionListener(this);
+    frame.add(button3);
+
+    button4 = new JButton("4");
+    button4.setBounds(10, 70, 50, 50);
+    button4.addActionListener(this);
+    frame.add(button4);
+
+    button5 = new JButton("5");
+    button5.setBounds(10, 70, 50, 50);
+    button5.addActionListener(this);
+    frame.add(button5);
+
+    button6 = new JButton("6");
+    button6.setBounds(10, 70, 50, 50);
+    button6.addActionListener(this);
+    frame.add(button6);
+
+    button7 = new JButton("7");
+    button7.setBounds(10, 70, 50, 50);
+    button7.addActionListener(this);
+    frame.add(button7);
+
     // ... (similar code for buttons 2-9, 0, +, -, *, /, ., =, C)
 
     equalButton = new JButton("=");
